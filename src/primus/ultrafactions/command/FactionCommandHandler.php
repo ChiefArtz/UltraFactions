@@ -44,7 +44,7 @@ class FactionCommandHandler {
 							return true;
 						}
 					break;
-					////////////// CREATE /////////////////// \Need money upgrate
+					////////////// CREATE /////////////////// \Need money create
 					case 'create':
 					if($sender->hasPermission('uf.command.create')){
 						if(isset($args[1])){
